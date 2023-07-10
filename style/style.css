@@ -52,6 +52,7 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    text-align: center;
 }
 .banner-description{
     display: flex;
@@ -95,13 +96,13 @@ main section{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    
 }
 .deal-description{
     display: flex;
     width: 594px;
     flex-shrink: 0;
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -115,4 +116,44 @@ main section{
     top: -370px;
 }
 
+/* Instagram style  */
+
+
+.insta-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 100px 1500px 0px 1200px; /* top right bottom left*/
+    
+}
+.insta-description{
+    display: flex;
+    width: 594px;
+    flex-shrink: 0;
+   color: rgba(39, 39, 39, 0.60);
+   text-align: center;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   margin-top: 24px; 
+   margin-bottom: 45px;
+   padding: 0px 970px; /* top right bottom left*/
+
+}
+.insta-container{
+    display: flex; 
+    gap: 24px;
+ 
+    padding: 50px;
+}
+.insta{
+    border-radius: 5px;
+    padding: 30px;
+    background: #FFF;
+    
+}
 
