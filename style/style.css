@@ -1,0 +1,99 @@
+/* common shared style */
+
+.btn-primary{
+    display: inline-flex;
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    border: 0;
+}
+ body{
+    font-family: 'Lato';
+    margin: 0;
+    padding: 0;
+} 
+
+.text-primary{
+  color: #E55473;;
+}
+
+/* header related style */
+
+.banner{
+    padding: 35px 35px 0px 150px; /* top right bottom left*/
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner .profile-pic{
+    width: 635px;
+    height: 800px;
+    border-left: 100px;
+    flex-shrink: 0;
+}
+.banner-title{
+    display: flex;
+    width: 708px;
+    flex-shrink: 0;
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner-description{
+    display: flex;
+    width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+
+/* main section styles */
+main{
+    max-width: 1140px;
+    /* margin: 0px auto; */
+}
+main section{
+    margin-top: 130px;
+}
+
+
+/* Hot Deal section styles */
+.hot-deal{
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    align-items: center;
+    padding: 50px 35px 50px 150px; /* top right bottom left*/
+    justify-content: space-between;
+    
+}
+.deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
