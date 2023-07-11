@@ -26,7 +26,7 @@
 
 .banner{
     padding: 35px 35px 0px 150px; /* top right bottom left*/
-    width: auto;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;
@@ -36,12 +36,12 @@
 .banner-content{
     max-width: 500px;
 }
-.banner .profile-pic{
+.banner .header-pic{
     width: 635px;
     height: 800px;
     border-left: 100px;
     flex-shrink: 0;
-    margin-right: 300px;
+    margin-right: 50px;
 }
 .banner-title{
     display: flex;
@@ -82,12 +82,13 @@ main section{
 /* Hot Deal section styles */
 .hot-deal{
     width: 3000px;
-    height: 620px;
+    height: 580px;;
     flex-shrink: 0;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.06);
     align-items: center;
-    padding: 300px 1500px 0px 800px; /* top right bottom left*/
+    padding: 300px 1500px 0px 200px;/* top right bottom left*/
+    
     
 }
 .deal-title{
@@ -98,7 +99,7 @@ main section{
     line-height: normal;
     
 }
-.deal-description{
+/* .deal-description{
     display: flex;
     width: 594px;
     flex-shrink: 0;
@@ -106,14 +107,77 @@ main section{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-}
+    flex-direction: column;
+    
+    
+} */
 .deal-pic .deal-sec-pic{
     width: 318px;
     height: 420px;
     flex-shrink: 0;
-    margin-left: 1000px;
+    margin-left: 700px;
     position: relative;
-    top: -370px;
+    top: -340px; 
+    /* -300px */
+    
+}
+
+/* Featured flowers style */
+
+#feature-title{
+
+    padding: 20px;
+    margin-left: 320px;
+    margin-bottom: 10px;
+
+}
+.Featured-container{
+    /* width: 1920px;
+    height: 4867px;
+    flex-shrink: 0; 
+
+    */
+    display: flex;
+    text-align: center;
+    gap: 24px;
+    width: 464px;
+    height: 538px;
+    padding-left: 130px;
+    
+}
+/* .feature{
+    /* background: rgba(167, 33, 98, 0.15); 
+    
+    border-radius: 300px 300px 0px 0px;
+    padding-left: 44px;
+    width: 464px;
+height: 538px;
+    
+} */
+
+.f1{
+    width: 400px;
+    height: 490px;
+    flex-shrink: 0;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+   
+}
+.f2{
+    width: 400px;
+    height: 490px;
+    flex-shrink: 0;
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+   
+}
+.f3{
+    width: 400px;
+    height: 490px;
+    flex-shrink: 0;
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+   
 }
 
 /* Instagram style  */
@@ -126,8 +190,9 @@ main section{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    padding: 100px 1500px 0px 1400px; /* top right bottom left1200*/ 
-    
+    padding: 20px 1500px 0px 650px; /* top right bottom left1200*/ 
+    /* padding: 100px 1500px 0px 1400px; */
+   
 }
 
 .insta-description{
@@ -142,7 +207,8 @@ main section{
    line-height: 30px;
    margin-top: 24px; 
    margin-bottom: 45px;
-   padding: 0px 1200px; /* top right bottom left970*/
+   padding: 0px 450px; /* top right bottom left970*/
+   /* padding: 0px 1200px; */
 
 }
 .insta-container{
@@ -150,11 +216,14 @@ main section{
     gap: 24px;
 }
 .insta-container, .insta{
-    margin-left: auto;
-    margin-right: 0px;
-    width: 342px;
+     margin-left: 0px;
+     gap: 1px;
+    /* margin-right: 0px;   */
+    /* 0px; */
+    width: 300px;
     height: 396px;
     flex-shrink: 0;
+    padding-left: 44px;
 }
 
 /* Latest Deal style */
@@ -167,7 +236,8 @@ main section{
 .centered {
     position: absolute;
     top: 20%;
-    left: 70%;
+    left: 8%;
+    /* 70%; */
     color: #272727;
     font-size: 32px;
     font-style: normal;
@@ -177,11 +247,12 @@ main section{
    
   }
 .deal-background{
-    width: 1440px;
+    width: 1140px;
     height: 449px;
     flex-shrink: 0;
     display: block;
-    margin-left: 800px;  
+    margin-left: 200px;  
+    /* 800px; */
 }
 .deal-description{
     color: rgba(39, 39, 39, 0.60);
@@ -191,11 +262,12 @@ main section{
     line-height: 30px;
     position: absolute;
     top: 22%;
-    left: 120%;
+    left: 58%;
+    /* 120%; */
 }
 textarea{
-   width: 660px;
-   height: 64px;
+   width: 550px;
+   height: 55px;
    flex-shrink: 0;
    color: rgba(39, 39, 39, 0.60);
    margin-bottom: 22px;
@@ -204,13 +276,14 @@ textarea{
    border: 0;
    position: absolute;
     top: 45%;
-    left: 96%;
-  
+    left: 39%;
+  /* 96%; */
 }
 .button-box{
     position: absolute;
     top: 45%;
-    left: 156%;
+    left: 89%;
+    /* 156%; */
 
 }
 
@@ -234,8 +307,10 @@ textarea{
    font-weight: 800;
    line-height: normal;
    position: absolute;
-    top: 236%;
+    top: 490%;
     left: 46%;
+    /* top: 236%;
+    left: 46%; */
 }
 .footer-description{
     width: 625px;
@@ -246,17 +321,19 @@ textarea{
    font-style: normal;
    font-weight: 400;
    line-height: 30px;
-   padding: 180px 1100px; /* up-down top-bottom*/
+   padding: 180px 500px; /* up-down top-bottom*/
+   /* padding: 180px 1100px; */
 }
 .copy-right{
-    /* color: rgba(255, 255, 255, 0.40); */
     color: rgba(255, 255, 255, 0.40);
+    /* color: aqua; */
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     position: absolute;
-    top: 250%;
+    top: 518%;
     left: 45%;
-   
+   /* top: 250%;
+    left: 45%; */
 }
