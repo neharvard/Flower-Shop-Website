@@ -41,7 +41,7 @@
     height: 800px;
     border-left: 100px;
     flex-shrink: 0;
-    margin-right: 50px;
+    margin-right: 150px;
 }
 .banner-title{
     display: flex;
@@ -132,11 +132,6 @@ main section{
 
 }
 .Featured-container{
-    /* width: 1920px;
-    height: 4867px;
-    flex-shrink: 0; 
-
-    */
     display: flex;
     text-align: center;
     gap: 24px;
@@ -145,16 +140,6 @@ main section{
     padding-left: 130px;
     
 }
-/* .feature{
-    /* background: rgba(167, 33, 98, 0.15); 
-    
-    border-radius: 300px 300px 0px 0px;
-    padding-left: 44px;
-    width: 464px;
-height: 538px;
-    
-} */
-
 .f1{
     width: 400px;
     height: 490px;
@@ -297,6 +282,40 @@ textarea{
 
 }
 
+/* Customer order style */
+
+.cutomer-order{
+     width: 50%;   
+}
+#customer-id{
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 1000px;
+    margin-top: -550px;
+    width: 30%; 
+    height: 10%;
+}
+#customer-description{
+    margin-left: 400px;
+    margin-top: -25px;  
+}
+
+.contact input[type="text"],.contact input[type="email"]{
+    display: block;
+    margin-bottom: 24px;
+    margin-top: 10px;
+    margin-left: 800px;
+    padding: 18px 35px;
+     width: 88px;
+    height: 64px; 
+    color:black;
+    border-radius: 5px;
+    background: #FFF;
+    border: 1;
+    width: 100%;
+    height: 20%;
+}
+
 /* Footer style */
 
 .footer-column{
@@ -317,8 +336,8 @@ textarea{
    font-weight: 800;
    line-height: normal;
    position: absolute;
-    top: 490%;
-    left: 46%;
+    top: 700%;
+    left: 40%;
     /* top: 236%;
     left: 46%; */
 }
@@ -331,8 +350,8 @@ textarea{
    font-style: normal;
    font-weight: 400;
    line-height: 30px;
-   padding: 180px 500px; /* up-down top-bottom*/
-   /* padding: 180px 1100px; */
+   padding: 180px 400px; /* up-down top-bottom*/
+   /* padding: 180px 500px;; */
 }
 .copy-right{
     color: rgba(255, 255, 255, 0.40);
@@ -342,8 +361,6 @@ textarea{
     font-weight: 400;
     line-height: normal;
     position: absolute;
-    top: 518%;
-    left: 45%;
-   /* top: 250%;
-    left: 45%; */
+    top: 730%;
+    left: 38%;
 }
