@@ -85,7 +85,7 @@ main section{
     height: 620px;
     flex-shrink: 0;
     border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
+    background: rgba(229, 84, 115, 0.06);
     align-items: center;
     padding: 300px 1500px 0px 800px; /* top right bottom left*/
     
@@ -250,11 +250,13 @@ textarea{
 }
 .copy-right{
     /* color: rgba(255, 255, 255, 0.40); */
-    color: aqua;
+    color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 180px 1100px;
+    position: absolute;
+    top: 250%;
+    left: 45%;
    
 }
