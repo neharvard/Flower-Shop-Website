@@ -1,9 +1,8 @@
 # 🌸 Flower Shop Landing Page
 
-A visually appealing and responsive flower shop landing page designed using **HTML** and **CSS**. This project showcases a clean layout, attractive UI, and multiple sections that simulate a modern flower e-commerce homepage.
+A visually appealing flower shop landing page designed using **HTML** and **CSS**. This project showcases a clean layout, attractive UI, and multiple sections that simulate a modern flower e-commerce homepage.
 
-**Live Preview:** [Click here to view the site](https://neharvard.github.io/Flower-Shop-Website/)
-
+## Visit the live site (https://neharvard.github.io/Flower-Shop-Website/)
 
 ## 🔍 Project Overview
 
@@ -29,7 +28,6 @@ The **Flower Shop** landing page highlights a fictional flower business and incl
 - 📝 **Customer order form** for user interaction
 - 📦 Clean and structured codebase
 
----
 
 ## 🛠️ Technologies Used
 
